@@ -10272,6 +10272,16 @@ color: #fff;
   color: #000;
   transition: color 0.3s ease;
 }
+@media (max-width: 480px) {
+  .offer-grid1 {
+    justify-content: center;
+  }
+
+  .offer-card1 {
+    margin: 0 auto;
+  }
+}
+
 .custom-shadow {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
   transition: 0.3s ease-in-out;
